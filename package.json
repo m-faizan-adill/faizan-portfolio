@@ -9,6 +9,8 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@fontsource-variable/gabarito": "^5.2.8",
+    "@fontsource/be-vietnam-pro": "^5.2.8",
     "@tailwindcss/vite": "^4.2.1",
     "astro": "^5.17.1",
     "tailwindcss": "^4.2.1"
