@@ -1,12 +1,12 @@
 import type { SiteConfig, SiteContent } from "@types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Muhammad Faizan Adil — Full Stack Engineer",
+  author: "Muhammad Faizan Adil",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Full Stack Engineer based in Karachi, Pakistan. I specialize in React.js, Next.js, React Native, and building responsive web and mobile applications.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/faizan-small.jpg",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
@@ -14,10 +14,10 @@ export const SITE_CONFIG: SiteConfig = {
   ],
   socialLinks: [
     // { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://www.linkedin.com/in/faizan-adil" },
+    { text: "LinkedIn", href: "https://www.linkedin.com/in/faizan-adil/" },
     { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "Youtube", href: "https://youtube.com/@faizanuniversitytutorials?si=FTHW6TYRYU2d5mxZ" },
+    // { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
   ],
   socialImage: "/zen-og.png",
   canonicalURL: "https://faizan-portfoliio.vercel.app",
@@ -26,71 +26,83 @@ export const SITE_CONFIG: SiteConfig = {
 export const SITE_CONTENT: SiteContent = {
   hero: {
     name: "Muhammad Faizan Adil",
-    specialty: "Mobile & Web Developer",
+    specialty: "Full Stack Engineer",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+      "Full Stack Engineer based in Karachi, Pakistan. I specialize in React.js, Next.js, and React Native, building responsive web and mobile applications with a focus on performance and scalability.",
     email: "adilmuhammadfaizan@gmail.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "Improdata",
+      position: "Frontend Developer Intern",
+      startDate: "Sept 2024",
+      endDate: "Jan 2025",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Developed dynamic and responsive user interfaces using React.js, contributing to production-level features and improving overall UI consistency across multiple projects.",
+        "Built scalable web applications with Next.js, ensuring optimal performance, SEO, and server-side rendering for better user experience and discoverability.",
+        "Designed and integrated React Native screens for mobile applications, collaborating closely with design and backend teams to deliver smooth, seamless user experiences.",
+        "Wrote clean, maintainable code following best practices, and contributed to performance optimization and bug fixes throughout the development cycle.",
       ],
-    },
-    {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
-      summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
-      ],
-    },
-    {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
     },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
+      name: "Kart – E-Commerce Mobile App",
+      summary:
+        "A full-featured Flipkart-inspired e-commerce mobile app built with React Native, Node.js, MongoDB, Redux, and Razorpay. Features product catalog, cart, AR viewer, wishlist, and an admin dashboard.",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      linkSource: "/",
+      image: "/kart.png",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
+      name: "YouTube Clone",
+      summary:
+        "A full-stack video sharing platform built with Next.js, TypeScript, Node.js, and Cloudinary. Supports video upload, streaming, JWT authentication, and Redux-based state management.",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      linkSource: "/",
+      image: "/youtube-clone.png",
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
+      name: "AutoCare360",
+      summary:
+        "A vehicle service management system built with Next.js, Node.js, and MongoDB. Features role-based access, appointment management, PDF invoice generation, and a real-time admin dashboard.",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      linkSource: "/",
+      image: "/autocare360.png",
+    },
+    {
+      name: "CliniTrack",
+      summary:
+        "A full-stack medical dashboard system for managing patients, appointments, and medical records. Built with Next.js, TypeScript, Node.js, and Chart.js with JWT authentication.",
+      linkPreview: "/",
+      linkSource: "/",
+      image: "/clinitrack.png",
+    },
+    {
+      name: "Wizard Portfolio",
+      summary:
+        "An immersive 3D portfolio website with an interactive wizard theme. Built with Next.js, Three.js, React Three Fiber, and Framer Motion for smooth animations and engaging visual effects.",
+      linkPreview: "/",
+      linkSource: "/",
+      image: "/wizard-portfolio.png",
+    },
+    {
+      name: "Music Pakistan",
+      summary:
+        "An elegant music streaming landing page showcasing Pakistan's music culture. Built with Next.js, TypeScript, Framer Motion, and Tailwind CSS with procedural visual effects.",
+      linkPreview: "/",
+      linkSource: "/",
+      image: "/music-pakistan.png",
     },
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
+      Hi, I'm Muhammad Faizan Adil, a passionate Full Stack Engineer based in Karachi, Pakistan. I'm currently pursuing my Bachelor of Science in Computer Science at Iqra University, and I bring hands-on experience from my internship at Improdata where I worked on real-world React.js, Next.js, and React Native projects.
 
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      I specialize in building responsive, scalable web and mobile applications with a strong focus on clean code, performance optimization, and great user experience. My stack includes React.js, Next.js, React Native, Node.js, Express.js, MongoDB, and TypeScript — and I'm always eager to learn more.
+
+      Beyond coding, I'm a Gold Medalist in Taekwondo and have participated in national-level competitions in science and the arts. I believe in combining creativity with technical skill to build solutions that truly matter.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/faizan-big.jpg",
   },
 };
