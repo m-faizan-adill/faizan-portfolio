@@ -2,7 +2,7 @@
 
 A modern, responsive personal portfolio website built with **Astro**, showcasing my experience, projects, and skills as a Full Stack Engineer.
 
-🔗 **Live Site:** [faizan-portfolio-nu.vercel.app](https://faizan-portfoliio.vercel.app)
+🔗 **Live Site:** [faizan-portfoliio.vercel.app](https://faizan-portfoliio.vercel.app)
 
 ---
 
