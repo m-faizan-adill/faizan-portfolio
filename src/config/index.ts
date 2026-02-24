@@ -109,7 +109,7 @@ export const SITE_CONTENT: SiteContent = {
     description: `
       Hi, I'm Muhammad Faizan Adil, a passionate Full Stack Engineer based in Karachi, Pakistan. I'm currently pursuing my Bachelor of Science in Computer Science at Iqra University, and I bring hands-on experience from my internship at Improdata where I worked on real-world React.js, Next.js, and React Native projects.
 
-      I specialize in building responsive, scalable web and mobile applications with a strong focus on clean code, performance optimization, and great user experience. My stack includes React.js, Next.js, React Native, Node.js, Express.js, MongoDB, and TypeScript — and I'm always eager to learn more.
+      I specialize in building responsive, scalable web and mobile applications with a strong focus on clean code, performance optimization, and great user experience. My stack includes React.js, Next.js, React Native, Node.js, Express.js, MongoDB, and TypeScript, and Python — and I'm always eager to learn more.
 
       Beyond coding, I'm a Gold Medalist in Taekwondo and have participated in national-level competitions in science and the arts. I believe in combining creativity with technical skill to build solutions that truly matter.
     `,
