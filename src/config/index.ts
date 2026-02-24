@@ -33,6 +33,16 @@ export const SITE_CONTENT: SiteContent = {
   },
   experience: [
     {
+      company: "TrueAi",
+      position: "Frontend / Backend Engineer Intern",
+      startDate: "Nov 2025",
+      endDate: "Dec 2025",
+      summary: [
+        "Contributing to the TrueAi Command Centre project as a Frontend/Backend Engineer Intern, working on a real-world product in a high-performance engineering environment.",
+        "Delivering consistent work with a minimum commitment of 16 hours per week, demonstrating accountability, professionalism, and a willingness to grow in a fast-paced startup setting.",
+      ],
+    },
+    {
       company: "Improdata",
       position: "Frontend Developer Intern",
       startDate: "Sept 2024",
