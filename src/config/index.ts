@@ -62,7 +62,7 @@ export const SITE_CONTENT: SiteContent = {
         "A full-featured Flipkart-inspired e-commerce mobile app built with React Native, Node.js, MongoDB, Redux, and Razorpay. Features product catalog, cart, AR viewer, wishlist, and an admin dashboard.",
       linkPreview: "/",
       linkSource: "/",
-      image: "/kart.png",
+      image: "/project_images/kart.jpeg",
     },
     {
       name: "YouTube Clone",
@@ -70,7 +70,7 @@ export const SITE_CONTENT: SiteContent = {
         "A full-stack video sharing platform built with Next.js, TypeScript, Node.js, and Cloudinary. Supports video upload, streaming, JWT authentication, and Redux-based state management.",
       linkPreview: "/",
       linkSource: "/",
-      image: "/youtube-clone.png",
+      image: "/project_images/youtube-clone.png",
     },
     {
       name: "AutoCare360",
@@ -78,7 +78,7 @@ export const SITE_CONTENT: SiteContent = {
         "A vehicle service management system built with Next.js, Node.js, and MongoDB. Features role-based access, appointment management, PDF invoice generation, and a real-time admin dashboard.",
       linkPreview: "/",
       linkSource: "/",
-      image: "/autocare360.png",
+      image: "/project_images/autocare360.png",
     },
     {
       name: "CliniTrack",
@@ -86,23 +86,23 @@ export const SITE_CONTENT: SiteContent = {
         "A full-stack medical dashboard system for managing patients, appointments, and medical records. Built with Next.js, TypeScript, Node.js, and Chart.js with JWT authentication.",
       linkPreview: "/",
       linkSource: "/",
-      image: "/clinitrack.png",
+      image: "/project_images/clinitrack.png",
     },
     {
       name: "Wizard Portfolio",
       summary:
         "An immersive 3D portfolio website with an interactive wizard theme. Built with Next.js, Three.js, React Three Fiber, and Framer Motion for smooth animations and engaging visual effects.",
-      linkPreview: "/",
+      linkPreview: "https://wizard-portfoliio.vercel.app",
       linkSource: "/",
-      image: "/wizard-portfolio.png",
+      image: "/project_images/wizard-portfolio.png",
     },
     {
       name: "Music Pakistan",
       summary:
         "An elegant music streaming landing page showcasing Pakistan's music culture. Built with Next.js, TypeScript, Framer Motion, and Tailwind CSS with procedural visual effects.",
-      linkPreview: "/",
+      linkPreview: "https://music-pakistan.vercel.app",
       linkSource: "/",
-      image: "/music-pakistan.png",
+      image: "/project_images/music-pakistan.png",
     },
   ],
   about: {
