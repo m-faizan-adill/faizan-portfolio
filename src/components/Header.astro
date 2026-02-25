@@ -9,18 +9,17 @@ const { siteLogo, navLinks } = Astro.props;
 ---
 
 <header
-  class="sticky top-0 z-50 mx-auto flex max-w-5xl animate-slide-in justify-between bg-black px-5 py-6"
->
-  <a href="/" aria-label="Home link">
+  class="sticky top-0 z-50 mx-auto flex items-center max-w-5xl animate-slide-in justify-between bg-black px-5 py-6"
+> 
+  <a href="/" aria-label="Home link" class="flex items-center">
     <Image
-      class="rounded-full"
-      src={siteLogo}
-      width="45"
-      height="45"
-      alt="website logo"
+      src="/faizan-small.jpg"
+      class="h-11 w-11 rounded-full object-cover object-top border border-primary/40 shadow-lg transition duration-300 hover:scale-105"
+      width="44"
+      height="44"
+      alt="Muhammad Faizan Adil"
     />
   </a>
-
   <button
     type="button"
     id="menu-button"
